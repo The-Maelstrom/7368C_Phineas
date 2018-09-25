@@ -5,9 +5,10 @@
 
 // int driveRightPos();
 
-// Sets the speeds of the left and right wheels of the chassis
+    // Creates function for setting speed of the lift
 void liftSet(int lift);
 
+    // Creates initialize function for the lift motors
 void liftInit();
 
 #endif

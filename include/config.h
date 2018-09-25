@@ -1,6 +1,7 @@
 #ifndef CONFIG_H_
 #define CONFIG_H_
-                  // Motors
+
+    // Defines which port each motor is controlled by
 // #define CLAW 1
 #define DRIVE_LEFT 2
 #define DRIVE_RIGHT 3
@@ -9,6 +10,8 @@
 #define FUNNEL 6
 #define RACK_RIGHT 7
 #define RACK_LEFT 8
+
+    // Defines which port sensors are controlled/read through
 /*
 #define ENCODER_LEFT_TOP 1     // Encoders
 #define ENCODER_LEFT_BOTTOM 2
@@ -18,6 +21,7 @@
 #define LIFT_POT 5     // Potentiometers
 // #define MOGO_POT 6
 
+    // Defines ports of Autonomous Selectors
 #define JUMPER_1 1     // Auton Selectors
 #define JUMPER_2 2
 #define JUMPER_3 3

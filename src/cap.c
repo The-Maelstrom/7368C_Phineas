@@ -7,5 +7,5 @@ void liftSet(int lift) {
 
 void liftInit() {
   blrsMotorInit(LIFT_LEFT, false, 0.5f, NULL);
-  blrsMotorInit(LIFT_RIGHT, true, 0.5f, NULL);
+  blrsMotorInit(LIFT_RIGHT, false, 0.5f, NULL);
 }

@@ -39,5 +39,7 @@ void initializeIO() {
 void initialize() {
   driveInit();
   ballsInit();
-  intakeInit();
+  liftInit();
+  motorManagerInit();
+  //buttonInit();
 }

@@ -1,15 +1,10 @@
 #ifndef _BALLS_H_
 #define _BALLS_H_
 
-// int driveLeftPos();
+void rackSet(int rack); //creates rack speed function
 
-// int driveRightPos();
+void funnelSet(int funnel); //creates funnel speed function
 
-// Sets the speeds of the left and right wheels of the chassis
-void rackSet(int rack);
-
-void funnelSet(int funnel);
-
-void ballsInit();
+void ballsInit(); //creates the initialize function
 
 #endif

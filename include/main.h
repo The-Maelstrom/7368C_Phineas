@@ -25,6 +25,7 @@
 // This prevents multiple inclusion, which isn't bad for this file but is good practice
 #define MAIN_H_
 
+// Ensures that all header files are included in the source code
 #include <API.h>
 #include "config.h"
 #include "buttons.h"
@@ -32,6 +33,12 @@
 #include "cap.h"
 #include "balls.h"
 #include "mtrmgr.h"
+
+////////////////////////////////////////////////////////////////////////////////
+////                       DO NOT EDIT ANY FURTHER                          ////
+////////////////////////////////////////////////////////////////////////////////
+//- Isaac
+
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus
 extern "C" {

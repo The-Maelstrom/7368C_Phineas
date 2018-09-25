@@ -14,6 +14,22 @@ void operatorControl() {
 		delay(20);
 ////////////////////////////////////////////////////////////////////////////////
 //Drive Stuff
+/*
+	if (buttonIsNewPress(JOY1_7L)) {
+		power = joystickGetAnalog(1, 3);
+		turn = joystickGetAnalog(2, 4);
+
+		if (abs(power) < 15) {
+			power = 0;
+		}
+		if (abs(turn) < 15) {
+			turn = 0;
+		}
+
+		driveSet (power + turn, power - turn);
+	}
+	else {
+		*/
 		power = joystickGetAnalog(1, 3); // vertical axis on left joystick
 		turn  = joystickGetAnalog(1, 4); // horizontal axis on left joystick
 
@@ -25,7 +41,7 @@ void operatorControl() {
 		}
 
 		driveSet(power + turn, power - turn);
-
+	//}
 ////////////////////////////////////////////////////////////////////////////////
 //Lift Stuff
 /*
@@ -47,6 +63,7 @@ void operatorControl() {
 		else {
 			lift = 0;
 		}
+
 	liftSet(lift);
 ////////////////////////////////////////////////////////////////////////////////
 //Funnel Stuff
