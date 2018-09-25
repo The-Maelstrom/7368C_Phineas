@@ -39,6 +39,9 @@ void operatorControl() {
 		if (abs(turn) < 15) {
 			turn = 0;
 		}
+		if (abs(turn) > 95) {
+			turn = 95;
+		}
 
 		driveSet(power + turn, power - turn);
 	//}
